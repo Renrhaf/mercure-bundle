@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+Unreleased
+----------
+
+* Add `http_client` config option per hub to inject a custom HTTP client (e.g. a scoped client with a short timeout). Falls back to the global `http_client` service when omitted.
+
 0.5.0
 -----
 
